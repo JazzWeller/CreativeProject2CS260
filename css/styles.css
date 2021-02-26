@@ -1,0 +1,158 @@
+body {
+  z-index: -1;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  background-color: #FFFFFF;
+}
+
+.navbar-toggler-icon {
+  margin-right: 20px;
+}
+
+a {
+  color: black;
+}
+
+p {
+  font-size: 5vw;
+  font-family: "Cinzel", sans-serif;
+}
+
+#main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#animeBlock {
+  width: 75%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#icon {
+  height: 240px;
+  width: 180px;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  font-size: 1.5em;
+  text-align: right;
+}
+
+.nav-link {
+  padding: 0px 55px 0px 55px;
+  margin-right: 20px;
+  font-variant: serif;
+  text-shadow: 1px 1px white;
+}
+
+#genre {
+  font-size: 1em;
+}
+
+#button {
+  font-size: 1em;
+}
+
+.bg-dark {
+  background-color: #101010 !important;
+}
+
+.footer {
+  background-color: #333333!important;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  padding-top: 10px;
+  padding-right: 30px;
+  margin-top: 30px;
+  text-align: right;
+}
+
+.footer-text {
+  color: white;
+  text-align: right;
+}
+
+@media only screen and (min-width: 374px) {
+  body {
+    padding-left: 25px;
+  }
+  h1 {
+    font-size: 1.75em;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  body {
+    padding-left: 30px;
+  }
+  h1 {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 768px) { 
+  #animeBlock {
+    width: 45%;
+  }
+  h1 {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #animeBlock {
+    width: 28%;
+  }
+  #genre {
+    font-size: 1.5em;
+  }
+  #button {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  #animeBlock {
+    width: 22%;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  
+}
+
+@media only screen and (min-width: 2000px) {
+  #animeBlock {
+    width: 14%;
+  }
+  #genre {
+    font-size: 2em;
+  }
+  #button {
+    font-size: 2em;
+  }
+}
