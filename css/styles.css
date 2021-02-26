@@ -49,6 +49,7 @@ p {
 }
 
 h1 {
+  color: #301020;
   font-size: 1.5em;
 }
 
@@ -67,7 +68,7 @@ h1 {
   padding: 0px 55px 0px 55px;
   margin-right: 20px;
   font-variant: serif;
-  background-color: #101010;
+  background-color: #301020;
   text-shadow: 1px 1px white;
 }
 
@@ -80,7 +81,7 @@ h1 {
 }
 
 .bg-dark {
-  background-color: #101010 !important;
+  background-color: #301020 !important;
 }
 
 .footer {

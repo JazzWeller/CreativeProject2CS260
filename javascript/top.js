@@ -16,7 +16,7 @@ window.onload = function() {
 	anime += "<div id='animeBlock'>";
 	anime += "<h2><u>" + (i + 1) + "</u></h2>";
 	anime += '<img id="icon" src="' + data.top[i].image_url + '"/>';
-	anime += '<h2><a href="' + data.top[i].url + '">' + data.top[i].title + '</a></h2><hr>';
+	anime += '<hr><h2><a href="' + data.top[i].url + '">' + data.top[i].title + '</a></h2><hr>';
 	anime += "<span> Episodes: " + data.top[i].episodes + "</span><br>";
 	anime += "<span> Score: " + data.top[i].score + "</span>";
 	anime += "</div>"
