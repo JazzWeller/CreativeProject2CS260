@@ -21,8 +21,10 @@ loopMain:
 	}
 	anime += "<div id='animeBlock'>";
 	anime += '<img id="icon" src="' + data.anime[i].image_url + '"/>';
-	anime += '<h2><a href="' + data.anime[i].url + '">' + data.anime[i].title + '</a></h2>';
-	anime += "<span> Episodes: " + data.anime[i].episodes + "</span>";
+	anime += '<h2><a href="' + data.anime[i].url + '">' + data.anime[i].title + '</a></h2><hr>';
+	anime += '<span>' + data.anime[i].synopsis + '</span><hr>';
+	anime += "<span> Episodes: " + data.anime[i].episodes + "</span><br>";
+	anime += "<span> Score: " + data.anime[i].score + "</span>";
 	anime += "</div>"
       }
       document.getElementById("main").innerHTML = anime;

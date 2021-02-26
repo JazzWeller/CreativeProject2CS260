@@ -14,6 +14,10 @@ a {
   color: black;
 }
 
+a:hover {
+  color: red;
+}
+
 p {
   font-size: 5vw;
   font-family: "Cinzel", sans-serif;
@@ -99,7 +103,7 @@ h1 {
 
 @media only screen and (min-width: 374px) {
   body {
-    padding-left: 25px;
+    padding-left: 0px;
   }
   h1 {
     font-size: 1.75em;
@@ -108,7 +112,7 @@ h1 {
 
 @media only screen and (min-width: 425px) {
   body {
-    padding-left: 30px;
+    padding-left: 0px;
   }
   h1 {
     font-size: 2em;
@@ -148,7 +152,7 @@ h1 {
 
 @media only screen and (min-width: 2000px) {
   #animeBlock {
-    width: 14%;
+    width: 17%;
   }
   #genre {
     font-size: 2em;
